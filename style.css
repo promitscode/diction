@@ -1,0 +1,342 @@
+:root {
+  --bg: #f6f3ee;
+  --bg-deep: #efe8df;
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-strong: rgba(255, 255, 255, 0.9);
+  --text: #1f1d1a;
+  --muted: #6e675f;
+  --line: rgba(31, 29, 26, 0.08);
+
+  --bronze: #9a6b3f;
+  --bronze-soft: #d8b999;
+  --sage: #5f857d;
+  --sage-soft: #bfd2cd;
+
+  --shadow-lg: 0 24px 60px rgba(53, 42, 30, 0.10);
+  --shadow-md: 0 14px 34px rgba(53, 42, 30, 0.08);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --max-width: 980px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  background:
+    radial-gradient(circle at 10% 15%, rgba(154, 107, 63, 0.12), transparent 26%),
+    radial-gradient(circle at 88% 82%, rgba(95, 133, 125, 0.14), transparent 28%),
+    linear-gradient(180deg, #fcfaf7 0%, var(--bg) 55%, var(--bg-deep) 100%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.background-orb {
+  position: fixed;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  filter: blur(70px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.65;
+}
+
+.orb-one {
+  top: -120px;
+  left: -80px;
+  background: rgba(154, 107, 63, 0.18);
+}
+
+.orb-two {
+  right: -100px;
+  bottom: -120px;
+  background: rgba(95, 133, 125, 0.18);
+}
+
+/* Home page */
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 52px 24px;
+}
+
+.home-shell {
+  width: 100%;
+  max-width: var(--max-width);
+  position: relative;
+  z-index: 1;
+}
+
+.hero-card {
+  text-align: center;
+  padding: 40px 28px 26px;
+}
+
+.hero-kicker {
+  margin: 0 0 10px;
+  font-size: 0.82rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sage);
+  font-weight: 700;
+}
+
+.site-title {
+  margin: 0;
+  font-size: clamp(3.3rem, 7vw, 5.8rem);
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+.site-subtitle {
+  margin: 16px auto 0;
+  max-width: 640px;
+  font-size: 1.07rem;
+  color: var(--muted);
+}
+
+.archive-panel {
+  margin: 26px auto 0;
+  max-width: 780px;
+  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(18px);
+  padding: 18px;
+}
+
+.archive-header {
+  padding: 8px 10px 18px;
+}
+
+.archive-label {
+  display: inline-block;
+  font-size: 0.84rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  font-weight: 700;
+}
+
+.month-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.month-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 22px 22px;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+  overflow: hidden;
+}
+
+.month-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(53, 42, 30, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.month-card-accent {
+  width: 10px;
+  align-self: stretch;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.accent-bronze {
+  background: linear-gradient(180deg, var(--bronze), var(--bronze-soft));
+}
+
+.accent-sage {
+  background: linear-gradient(180deg, var(--sage), var(--sage-soft));
+}
+
+.month-card-content {
+  flex: 1;
+}
+
+.month-card-title {
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.month-card-meta {
+  margin-top: 4px;
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
+.month-card-arrow {
+  font-size: 1.2rem;
+  color: var(--sage);
+  flex-shrink: 0;
+}
+
+/* Month page */
+.month-page {
+  padding: 38px 24px 80px;
+}
+
+.month-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.topbar {
+  margin-bottom: 26px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(31, 29, 26, 0.06);
+  border-radius: 999px;
+  padding: 9px 14px;
+  font-size: 0.95rem;
+  box-shadow: var(--shadow-md);
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+.month-hero {
+  margin-bottom: 28px;
+  padding: 10px 4px 0;
+}
+
+.month-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  font-weight: 700;
+}
+
+.month-title {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 4.4rem);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.month-description {
+  margin: 12px 0 0;
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.entries {
+  display: grid;
+  gap: 18px;
+}
+
+.entry-card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  position: relative;
+}
+
+.entry-topline {
+  height: 6px;
+  background: linear-gradient(90deg, var(--bronze), var(--sage));
+}
+
+.entry-body {
+  padding: 22px 24px 22px;
+}
+
+.entry-date {
+  margin: 0 0 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.entry-line {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.entry-line:last-child {
+  margin-bottom: 0;
+}
+
+.entry-label {
+  font-weight: 700;
+  color: var(--bronze);
+}
+
+.entry-separator {
+  color: var(--muted);
+}
+
+.placeholder {
+  color: #8b837a;
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .home-page,
+  .month-page {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .archive-panel {
+    padding: 14px;
+  }
+
+  .month-card {
+    padding: 18px 18px;
+  }
+
+  .entry-body {
+    padding: 18px 18px 18px;
+  }
+
+  .site-subtitle,
+  .month-description,
+  .entry-line {
+    font-size: 0.98rem;
+  }
+}
