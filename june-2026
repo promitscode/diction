@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>May 2026 — Diction</title>
+  <meta name="description" content="May 2026 entries in Diction." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="month-page">
+  <div class="background-orb orb-one"></div>
+  <div class="background-orb orb-two"></div>
+
+  <main class="month-shell">
+    <div class="topbar">
+      <a class="back-link" href="index.html">← Back to Diction</a>
+    </div>
+
+    <section class="month-hero">
+      <div class="month-tag">Monthly Archive</div>
+      <h1 class="month-title">May 2026</h1>
+      <p class="month-description">
+        A continuing archive of words, meanings, and sentences gathered through May.
+      </p>
+    </section>
+
+    <section class="entries">  
+      
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 1</h2>
+          <span class="entry-label">New Word:</span>
+            Jaded
+            <span class="entry-separator">=</span>
+            (Adj.) Another word for 'tired' but like emotionally tired, not impressed because seen or heard so many times. 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          A looming atmosphere that forebodes the trappings of this town as well as each character arc.
+        </p>
+        </div>
+      </article>
+      
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 4</h2>
+          <span class="entry-label">New Word:</span>
+            Talons
+            <span class="entry-separator">=</span>
+            (N.) large, sharp, hooked claws of a bird of prey. 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          You question invites a binary answer.
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 5</h2>
+          <span class="entry-label">New Word:</span>
+            Reprisal
+            <span class="entry-separator">=</span>
+            (N.) An act of revenge or retribution taken in return for an injury . 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          A person of peace should not be construed as someone not skilled at war.
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 6</h2>
+          <span class="entry-label">New Word:</span>
+            Merch box
+            <span class="entry-separator">=</span>
+            (N.) A merchandise box containing gift items. 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          How should be batten down the hatches?
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 7</h2>
+          <span class="entry-label">New Word:</span>
+            Carapace
+            <span class="entry-separator">=</span>
+            (N.) A protective outer shell or covering. Word can be used literally or figuratively. 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          The bottles bear the imprint of the Kentucky distillery Woodford Reserve, and are engraved with the words “Kash Patel FBI Director,” as well as a rendering of an FBI shield.
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 8</h2>
+          <span class="entry-label">New Word:</span>
+            massif
+            <span class="entry-separator">=</span>
+            (N.) A principal mountain mass bounded by fault lines which move as one unit. 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          The details are doing more work here than the headline.
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 11</h2>
+          <span class="entry-label">New Word:</span>
+            Disingenuous
+            <span class="entry-separator">=</span>
+            (Adj.) Lacking in frankness, candour; insincere 
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Don't bury the lead. 
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 12</h2>
+          <span class="entry-label">New Word:</span>
+            Pithy
+            <span class="entry-separator">=</span>
+            (Adj.) Short yet meaningful and intelligent.  
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          What will you do for an encore? 
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 13</h2>
+          <span class="entry-label">New Word:</span>
+            Tradwife
+            <span class="entry-separator">=</span>
+            (N.) Stands for Traditional Wife. It is part of an internet subculture made up of women who promote traditional gender roles, often on social media.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Its like shooting an ant with a bazooka. 
+        </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 14</h2>
+          <span class="entry-label">New Word:</span>
+            Balmy
+            <span class="entry-separator">=</span>
+            (Adj.) Pleasantly warm and mild.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Reading should be subject not to our plans but to our whims. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 15</h2>
+          <span class="entry-label">New Word:</span>
+            Irreverently
+            <span class="entry-separator">=</span>
+            (Adv.) In a cheeky and plafully disrespectful way, not in a hostile way.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Some one who comes from outside has no idea where the bodies are buried. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 18</h2>
+         <span class="entry-label">New Word:</span>
+            Peptides
+            <span class="entry-separator">=</span>
+            (N.) performance-enhancing or wellness-related compounds popular in certain online male fitness and “biohacking” communities.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Do the math. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 19</h2>
+          <span class="entry-label">New Word:</span>
+            pas de deux
+            <span class="entry-separator">=</span>
+            (N.) A dance duet in ballet, but coudl also mean delicate, choreographed interaction between two beings.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          I hovered unnecessarily over his dog-park romping, oblivious to the subtleties of the canine pas de deux. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 20</h2>
+          <span class="entry-label">New Word:</span>
+            Repugnant
+            <span class="entry-separator">=</span>
+            (Adj.) extremely offensive, disgusting, or unacceptable.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Perfectly primed to be riveted by a story of women willing their way to liberation through literature. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 21</h2>
+         <span class="entry-label">New Word:</span>
+            Wrought
+            <span class="entry-separator">=</span>
+            (Adj.) carefully shaped, crafted, or constructed.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          Lackey’s characters are intricately wrought and deeply human. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 22</h2>
+          <span class="entry-label">New Word:</span>
+            Virulent
+            <span class="entry-separator">=</span>
+            (Adj.) Extremely bitter, hostile or poisonous. A highe rlevel of toxic.   
+        </p>
+          <p class="entry-line">
+            <span class="entry-label">New Sentence:</span>
+          If Nikolai Gogol and Raymond Chandler had collaborated, this might have been the result—absurdist Slavic magical realism grafted onto an entertaining whodunit. 
+          </p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 25</h2>
+          <p class="entry-line placeholder"><span class="entry-label">New Word:</span> Add word = Add meaning</p>
+          <p class="entry-line placeholder"><span class="entry-label">New Sentence:</span> Add sentence</p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 26</h2>
+          <p class="entry-line placeholder"><span class="entry-label">New Word:</span> Add word = Add meaning</p>
+          <p class="entry-line placeholder"><span class="entry-label">New Sentence:</span> Add sentence</p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 27</h2>
+          <p class="entry-line placeholder"><span class="entry-label">New Word:</span> Add word = Add meaning</p>
+          <p class="entry-line placeholder"><span class="entry-label">New Sentence:</span> Add sentence</p>
+        </div>
+      </article>
+
+      <article class="entry-card">
+        <div class="entry-topline"></div>
+        <div class="entry-body">
+          <h2 class="entry-date">May 29</h2>
+          <p class="entry-line placeholder"><span class="entry-label">New Word:</span> Add word = Add meaning</p>
+          <p class="entry-line placeholder"><span class="entry-label">New Sentence:</span> Add sentence</p>
+        </div>
+      </article>
+
+      
+    </section>
+  </main>
+</body>
+</html>
